@@ -30,14 +30,12 @@ h3 {
 }
 h1 {
   font-size: 33px; /* 42.635 / 18 = 2.369 */
-  line-height: 33px; /* 44 / 42.635 = 1.032*/
-  padding-bottom: 33px; /* 44 / 42.635 = 1.032*/
+  padding-bottom: 44px; /* 44 / 42.635 = 1.032*/
   padding-top: 66px;
   color: red;
   background-color: rgba(0,0,255,0.4);
   font-family: Verdana, Geneva, sans-serif;
   line-height: 1.222em; /* 22 / 18 = 1.2222222 */
-  border: 2px solid red; /* NOTE: diagnostics */
 }
 
 body {
@@ -85,10 +83,12 @@ footer {
 #nav li {
   background-color: #FF8080;
 }
-
+#about-text {
+  padding-top: 22px;
+}
 #food-choices,
 #deli-or-carryout li{
-  margin-top: 66px;
+  margin-top: 22px;
 }
 #food-choices-navigation ul {
 
